@@ -2,8 +2,8 @@ import os
 import time
 import requests
 
-BOT_TOKEN = os.getenv("BOT_TOKEN")
-CHANNEL_ID = os.getenv("CHANNEL_ID")  # Example: @yourchannelusername
+BOT_TOKEN = os.getenv("8232232932:AAHHw0incVCAg2EHlJeSdMQYuORSzVlz1LM")
+CHANNEL_ID = os.getenv("@CryptoxPulse")  
 
 def send_message(text):
     url = f"https://api.telegram.org/bot{BOT_TOKEN}/sendMessage"
